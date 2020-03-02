@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Modern Inference</title>
+
+<style type="text/css"></style>
+
+
+
+
+</head>
+
+<body>
+<div class="container">
+
+<h1>Modern Inference</h1>
+
+
+
+<p>The aim is to introduce advanced inferential methods, ranging from classical multiple testing to post-selection inference and variable selection procedures for high-dimensional data.</p>
+<div id="last-announcements" class="section level2">
+<h2>Last announcements</h2>
+<ul>
+<li>no news</li>
+</ul>
+</div>
+<div id="calendar" class="section level2">
+<h2>Calendar</h2>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>N</th>
+<th></th>
+<th>Date</th>
+<th></th>
+<th>Room</th>
+<th></th>
+<th>Hours</th>
+<th></th>
+<th>Topics</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>1</td>
+<td></td>
+<td>27/3/2020</td>
+<td></td>
+<td>U7-17</td>
+<td></td>
+<td>13:30-16:30 (3h)</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>2</td>
+<td></td>
+<td>30/3/2020</td>
+<td></td>
+<td>U7-17</td>
+<td></td>
+<td>13:30-16:30 (3h)</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>3</td>
+<td></td>
+<td>31/3/2020</td>
+<td></td>
+<td>U7-17</td>
+<td></td>
+<td>9:30-11:30 (2h)</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>4</td>
+<td></td>
+<td>3/4/2020</td>
+<td></td>
+<td>U7-17</td>
+<td></td>
+<td>11:30-16:30 (3h)</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>5</td>
+<td></td>
+<td>6/4/2020</td>
+<td></td>
+<td>U7-17</td>
+<td></td>
+<td>13:30-16:30 (3h)</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>6</td>
+<td></td>
+<td>7/4/2020</td>
+<td></td>
+<td>U7-17</td>
+<td></td>
+<td>9:30-11:30 (2h)</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>7</td>
+<td></td>
+<td>10/4/2020</td>
+<td></td>
+<td>U7-17</td>
+<td></td>
+<td>11:30-16:30 (3h)</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>8</td>
+<td></td>
+<td>17/4/2020</td>
+<td></td>
+<td>U7-17</td>
+<td></td>
+<td>13:30-15:30 (2h)</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>All of the course material is on the github repo.</p>
+</div>
+<div id="program" class="section level2">
+<h2>Program</h2>
+<ul>
+<li><p>The crisis of modern science and selective inference</p></li>
+<li><p>The multiple testing problem: methods for familywise error rate and false discovery rate control</p></li>
+<li><p>The post-hoc inference problem: simultaneous confidence bounds for the false discovery proportion</p></li>
+<li><p>The variable selection problem: sample-splitting inference, stability selection and knockoffs</p></li>
+</ul>
+</div>
+<div id="exam" class="section level2">
+<h2>Exam</h2>
+<p>Oral examination. For attending students, the oral examination may be replaced by a written examination (only for the first two exam sessions).</p>
+<p>Schedule:</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>N</th>
+<th></th>
+<th>Date</th>
+<th></th>
+<th>Room</th>
+<th></th>
+<th>Hour</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>1</td>
+<td></td>
+<td>28/4/2020</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>2</td>
+<td></td>
+<td>25/6/2020</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>3</td>
+<td></td>
+<td>9/7/2020</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>4</td>
+<td></td>
+<td>22/9/2020</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+<td>TBD</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="additional-references" class="section level2">
+<h2>Additional references</h2>
+<ul>
+<li><p>Efron, Hastie (2016) Computer-Age Statistical Inference: Algorithms, Evidence, and Data Science. Cambridge University Press. Chapters 15, 20</p></li>
+<li><p>Wainwright (2019) High-Dimensional Statistics: A Non-Asymptotic Viewpoint. Cambridge University Press. Chapter 1</p></li>
+</ul>
+</div>
+<div id="acknowledgements" class="section level2">
+<h2>Acknowledgements</h2>
+<p>Much of the course content was inspired by the following courses:</p>
+<ul>
+<li><p><a href="https://statweb.stanford.edu/~candes/teaching/stats300c/">Theory of Statistics</a> by Prof. Emmanuel Candès</p></li>
+<li><p><a href="https://www.stat.cmu.edu/~aramdas/reproducibility19/r19.html">Statistical methods for reproducibility</a> by Prof. Aaditya Ramdas</p></li>
+</ul>
+<p>and on a number of other sources.</p>
+</div>
+
+
+</div>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

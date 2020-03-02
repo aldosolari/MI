@@ -1,0 +1,78 @@
+---
+title: "Modern Inference"
+output: markdowntemplates::minimal
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+The aim is to introduce advanced inferential methods, ranging from classical multiple testing to post-selection inference and variable selection procedures for high-dimensional data. 
+
+## Last announcements
+
+* no news 
+
+## Calendar
+
+|| N || Date || Room || Hours || Topics || 
+|-|-|-|-|-|-|-|-|-|-|-|
+||  || ||  ||  || ||
+|| 1 || 27/3/2020 || U7-17 || 13:30-16:30 (3h) || TBD ||
+||  || ||  ||  || ||
+|| 2 || 30/3/2020 || U7-17 || 13:30-16:30 (3h) || TBD ||
+|| 3 || 31/3/2020 || U7-17 || 9:30-11:30 (2h) || TBD  ||
+|| 4 || 3/4/2020 || U7-17 || 11:30-16:30 (3h) || TBD  ||
+||  || ||  ||  || ||
+|| 5 || 6/4/2020 || U7-17 || 13:30-16:30 (3h) || TBD ||
+|| 6 || 7/4/2020 || U7-17 || 9:30-11:30 (2h) || TBD  ||
+|| 7 || 10/4/2020 || U7-17 || 11:30-16:30 (3h) || TBD  ||
+||  || ||  ||  || ||
+|| 8 || 17/4/2020 || U7-17 || 13:30-15:30 (2h) || TBD ||
+
+All of the course material is on the github repo.
+
+
+## Program
+
+* The crisis of modern science and selective inference
+
+* The multiple testing problem: methods for familywise error rate and false discovery rate control
+
+* The post-hoc inference problem: simultaneous confidence bounds for the false discovery proportion 
+
+* The variable selection problem: sample-splitting inference, stability selection and knockoffs
+
+
+## Exam
+
+Oral examination. For attending students, the oral examination may be replaced by a written examination (only for the first two exam sessions).
+
+Schedule:
+
+|| N || Date || Room || Hour ||
+|-|-|-|-|-|-|-|-|-|-|
+||  || ||  ||  || ||
+|| 1 || 28/4/2020 || TBD || TBD ||
+|| 2 || 25/6/2020 || TBD || TBD ||
+|| 3 || 9/7/2020 || TBD || TBD ||
+|| 4 || 22/9/2020 || TBD || TBD ||
+
+## Additional references
+
+* Efron, Hastie (2016) Computer-Age Statistical Inference: Algorithms, Evidence, and Data Science. Cambridge University Press. Chapters 15, 20 
+
+* Wainwright (2019) High-Dimensional Statistics: A Non-Asymptotic Viewpoint. Cambridge University Press. 
+Chapter 1
+
+## Acknowledgements 
+
+Much of the course content was inspired by the following courses:
+
+* [Theory of Statistics](https://statweb.stanford.edu/~candes/teaching/stats300c/) by Prof. Emmanuel Candès
+
+* [Statistical methods for reproducibility](https://www.stat.cmu.edu/~aramdas/reproducibility19/r19.html) by Prof. Aaditya Ramdas
+
+and on a number of other sources.
+
