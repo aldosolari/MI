@@ -14,7 +14,7 @@ The main goal of this course is to expose students to modern ideas in statistica
 
 ## Last announcements
 
-* no news 
+* Per formare i gruppi per gli Homework, si prega di compilare il seguente [FORM](https://docs.google.com/forms/d/e/1FAIpQLSftmyHrsyr9fkBnWjg2L-QFodD2X5BZL1qyOFYeUD3ZDv727Q/viewform?usp=sf_link) 
 
 ## Calendar
 
@@ -49,7 +49,7 @@ All of the course material is on the github repo.
 Economy? (p-hacking)
     - A quiet scandal in the statistical community (post-selection
 inference)
-    - Eat Ketchup and Pizza and avoid Prostate Cancer (HARKing)
+    - Eat Pizza and avoid Prostate Cancer
     - AIDSVAX vaccine study (unplanned subgroup analysis)
     - The dead salmon study (large-scale testing)
     
