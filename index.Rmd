@@ -8,7 +8,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-The aim is to introduce advanced inferential methods, ranging from classical multiple testing to post-selection inference and variable selection procedures for high-dimensional data. 
+The main goal of this course is to expose students to modern ideas in statistical inference, ranging from classical multiple testing to post-selection inference and variable selection procedures for high-dimensional data. 
+
+
 
 ## Last announcements
 
@@ -16,55 +18,117 @@ The aim is to introduce advanced inferential methods, ranging from classical mul
 
 ## Calendar
 
-|| N || Date || Room || Hours || Topics || 
+|| N || Date || Room || Hours || Topic || 
 |-|-|-|-|-|-|-|-|-|-|-|
 ||  || ||  ||  || ||
-|| 1 || 27/3/2020 || U7-17 || 13:30-16:30 (3h) || TBD ||
+|| 1 || 27/3/2020 || U7-17 || 13:30-16:30 (3h) || The Crisis of Modern Science  ||
 ||  || ||  ||  || ||
-|| 2 || 30/3/2020 || U7-17 || 13:30-16:30 (3h) || TBD ||
-|| 3 || 31/3/2020 || U7-17 || 9:30-11:30 (2h) || TBD  ||
-|| 4 || 3/4/2020 || U7-17 || 11:30-16:30 (3h) || TBD  ||
+|| 2 || 30/3/2020 || U7-17 || 13:30-16:30 (3h) || High-Dimensional Statistics ||
+|| 3 || 31/3/2020 || U7-17 || 9:30-11:30 (2h) || Global Null Testing ||
+|| 4 || 3/4/2020 || U7-17 || 11:30-16:30 (3h) || FWER control: Bonferroni ||
 ||  || ||  ||  || ||
-|| 5 || 6/4/2020 || U7-17 || 13:30-16:30 (3h) || TBD ||
-|| 6 || 7/4/2020 || U7-17 || 9:30-11:30 (2h) || TBD  ||
-|| 7 || 10/4/2020 || U7-17 || 11:30-16:30 (3h) || TBD  ||
+|| 5 || 6/4/2020 || U7-17 || 13:30-16:30 (3h) || FDR control: Benjamini-Hochberg ||
+|| 6 || 7/4/2020 || U7-17 || 9:30-11:30 (2h) ||  Uniform Bounds for the FDP  ||
+|| 7 || 10/4/2020 || U7-17 || 11:30-16:30 (3h) || High-Dimensional Inference  ||
 ||  || ||  ||  || ||
-|| 8 || 17/4/2020 || U7-17 || 13:30-15:30 (2h) || TBD ||
+|| 8 || 17/4/2020 || U7-17 || 13:30-15:30 (2h) || Modern Methods for Variable Selection ||
 
 All of the course material is on the github repo.
 
 
 ## Program
 
-* The crisis of modern science and selective inference
+* The Crisis of Modern Science 
+    - Scientific studies
+    - The likelihood of false discoveries
+    - The likelihood of replicating discoveries
 
-* The multiple testing problem: methods for familywise error rate and false discovery rate control
+* The Law of Selection
+    - The Baltimore stockbroker scam (survivorship bias)
+    - Democrats vs. Republicans: which is better for the U.S.
+Economy? (p-hacking)
+    - A quiet scandal in the statistical community (post-selection
+inference)
+    - Eat Ketchup and Pizza and avoid Prostate Cancer (HARKing)
+    - AIDSVAX vaccine study (unplanned subgroup analysis)
+    - The dead salmon study (large-scale testing)
+    
+* High-Dimensional Statistics 
+    - Classical versus high-dimensional theory
+    - Linear discriminant analysis in high dimensions
+    - What can help us in high dimensions? Sparsity
+    - High-dimensional regression: the failure of least squares and the behaviour of the Lasso
 
-* The post-hoc inference problem: simultaneous confidence bounds for the false discovery proportion 
+* Global Null Testing
+    - Hypothesis testing: a stochastic proof by contradiction
+    - The $p$-value
+    - Maximum statistic, sum of statistics and the Higher Criticism
+    - Error rates
 
-* The variable selection problem: sample-splitting inference, stability selection and knockoffs
+* FamilyWise Error Rate control: Bonferroni
+    - Bonferroni inequality
+    - Holm procedure
 
+* False Discovery Rate control: Benjamini-Hochberg
+    - Benjamini-Hochberg procedure 
+    - Benjamini-Yekutieli procedure
+    - False coverage control
+    
+* Uniform Bounds for the False Discovery Proportion 
+    - Post-hoc inference
+    - Closed testing with Simes local tests
+
+* High-Dimensional Inference
+    - Sample-splitting
+
+* Modern Methods for Variable Selection
+    - Stability Selection
+    - The Knockoff Filter
+
+
+## Homeworks
+
+|| N || Date || Deadline || Text ||
+|-|-|-|-|-|-|-|-|-|-|
+||  || ||  ||  || ||
+|| 1 || 27/03/2020 || 03/04/2020 || [HW1]() ||
+|| 2 || 30/03/2020 || 06/04/2020 || [HW2]() ||
+|| 3 || 03/04/2020 || 10/04/2020 || [HW3]() ||
+|| 4 || 06/04/2020 || 17/04/2020 || [HW4]() ||
+|| 5 || 10/04/2020 || 17/04/2020 || [HW5]() ||
 
 ## Exam
 
-Oral examination. For attending students, the oral examination may be replaced by a written examination (only for the first two exam sessions).
+Two options: 
 
-Schedule:
+1. Oral examination 
+
+2. Homeworks and (shorter) oral examination.  
+
+For the homeworks:
+
+  * Students can partecipate in groups (max. 3 persons)  
+  
+  * There will be 5 homeworks; the lowest score will be dropped in the final grade
+  
+  * Each homework has a deadline: solutions should be submitted via e-mail (late submissions will *not* be accepted)
+
+ <!-- For attending students, the oral examination may be replaced by a written examination (only for the first two exam sessions). -->
+
+Exam schedule:
 
 || N || Date || Room || Hour ||
 |-|-|-|-|-|-|-|-|-|-|
 ||  || ||  ||  || ||
-|| 1 || 28/4/2020 || TBD || TBD ||
-|| 2 || 25/6/2020 || TBD || TBD ||
-|| 3 || 9/7/2020 || TBD || TBD ||
-|| 4 || 22/9/2020 || TBD || TBD ||
+|| 1 || 28/04/2020 || TBD || TBD ||
+|| 2 || 25/06/2020 || TBD || TBD ||
+|| 3 || 09/07/2020 || TBD || TBD ||
+|| 4 || 22/09/2020 || TBD || TBD ||
 
-## Additional references
+## Textbooks
 
 * Efron, Hastie (2016) Computer-Age Statistical Inference: Algorithms, Evidence, and Data Science. Cambridge University Press. Chapters 15, 20 
-
-* Wainwright (2019) High-Dimensional Statistics: A Non-Asymptotic Viewpoint. Cambridge University Press. 
-Chapter 1
+* Wainwright (2019) High-Dimensional Statistics: A Non-Asymptotic Viewpoint. Cambridge University Press. Chapter 1
 
 ## Acknowledgements 
 
