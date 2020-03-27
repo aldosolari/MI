@@ -159,3 +159,11 @@ Much of the course content was inspired by the following courses:
 
 and on a number of other sources.
 
+
+## Disclaimer
+
+The course material contains images obtained by routine Google Images searches. Some of these images may perhaps be copyright. They are included here for
+educational noncommercial purposes and are considered to be covered by the doctrine
+of Fair Use. In any event they are easily available from Google Images. It's not
+feasible to give full scholarly credit to the creators of these images. We hope they can
+be satisfied with the positive role they are playing in the educational process.
