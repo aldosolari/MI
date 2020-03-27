@@ -33,17 +33,20 @@ The main goal of this course is to expose students to modern ideas in statistica
 ||  || ||  ||  || ||
 || 8 || 17/4/2020 || U7-17 || 13:30-15:30 (2h) || Modern Methods for Variable Selection ||
 
-All of the course material is on the github repo.
+All of the course material is on the 
+[github repo](https://github.com/aldosolari/MI)
 
 
-## Program
+## Program and resources
 
-* The Crisis of Modern Science 
+* [Course overview](docs/slides/0_intro.pdf)
+
+* [The Crisis of Modern Science](docs/slides/1_crisis.pdf) [[R](docs/code/1_crisis.R)]
     - Scientific studies
     - The likelihood of false discoveries
     - The likelihood of replicating discoveries
 
-* The Law of Selection
+* [The Law of Selection](docs/slides/2_lawsel.pdf)  [[R](docs/code/2_lawsel.R)]
     - The Baltimore stockbroker scam (survivorship bias)
     - Democrats vs. Republicans: which is better for the U.S.
 Economy? (p-hacking)
@@ -91,11 +94,27 @@ inference)
 || N || Date || Deadline || Text ||
 |-|-|-|-|-|-|-|-|-|-|
 ||  || ||  ||  || ||
-|| 1 || 27/03/2020 || 03/04/2020 || [HW1]() ||
-|| 2 || 30/03/2020 || 06/04/2020 || [HW2]() ||
+|| 1 || 27/03/2020 || 06/04/2020 || [HW1](docs/hw/hw1.pdf) ||
+|| 2 || 30/03/2020 || 10/04/2020 || [HW2]() ||
 || 3 || 03/04/2020 || 10/04/2020 || [HW3]() ||
 || 4 || 06/04/2020 || 17/04/2020 || [HW4]() ||
 || 5 || 10/04/2020 || 17/04/2020 || [HW5]() ||
+
+The rules are the following:
+
+* You will have to submit your solution by the deadline. Feel free to choose the format for your solution (.txt, .tex, .pdf etc.), the nicer the better, and the number of files in attachment (one or more, but not too many)
+
+* Answer with clarity and precision. All R code must be reproducible
+
+* For theoretical questions, try to provide a well-reasoned mathematical argument. Simulations can help form your intuition; but a purely empirical answer will only receive partial points
+
+* It is encouraged to discuss the problem sets with others, but every group needs to turn in a unique write-up. Use of sources (people, books, internet and so on) without citing them in homework sets results in failing grade
+
+* At the end of the homeworks, each member must fill a peer rating form of team members. The individual score will be the team score adjusted based on peer ratings
+
+* All students must follow a code of conduct, which covers issues such as plagiarism, falsification, unauthorized assistance, cheating, and other grievous acts of academic dishonesty
+
+
 
 ## Exam
 
