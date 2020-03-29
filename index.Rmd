@@ -56,11 +56,11 @@ inference)
     - AIDSVAX vaccine study (unplanned subgroup analysis)
     - The dead salmon study (large-scale testing)
     
-* High-Dimensional Statistics 
+* [High-Dimensional Statistics](docs/slides/3_hds.pdf)
     - Classical versus high-dimensional theory
     - Linear discriminant analysis in high dimensions
     - What can help us in high dimensions? Sparsity
-    - High-dimensional regression: the failure of least squares and the behaviour of the Lasso
+    - High-dimensional regression: the behaviour of the Lasso
 
 * Global Null Testing
     - Hypothesis testing: a stochastic proof by contradiction
