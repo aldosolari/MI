@@ -62,7 +62,7 @@ inference)
     - What can help us in high dimensions? Sparsity
     - High-dimensional regression: the behaviour of the Lasso
 
-* [Global Null Testing]((docs/slides/4_glob.pdf))
+* [Global Null Testing](docs/slides/4_glob.pdf)
     - Hypothesis testing: a stochastic proof by contradiction
     - The $p$-value
     - Maximum statistic, sum of statistics and the Higher Criticism
