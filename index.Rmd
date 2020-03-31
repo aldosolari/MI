@@ -62,13 +62,13 @@ inference)
     - What can help us in high dimensions? Sparsity
     - High-dimensional regression: the behaviour of the Lasso
 
-* Global Null Testing
+* [Global Null Testing]((docs/slides/4_glob.pdf))
     - Hypothesis testing: a stochastic proof by contradiction
     - The $p$-value
     - Maximum statistic, sum of statistics and the Higher Criticism
-    - Error rates
 
 * FamilyWise Error Rate control: Bonferroni
+    - Error rates
     - Bonferroni inequality
     - Holm procedure
 
@@ -95,7 +95,7 @@ inference)
 |-|-|-|-|-|-|-|-|-|-|
 ||  || ||  ||  || ||
 || 1 || 27/03/2020 || 06/04/2020 || [HW1](docs/hw/hw1.pdf) ||
-|| 2 || 30/03/2020 || 10/04/2020 || [HW2]() ||
+|| 2 || 30/03/2020 || 10/04/2020 || [HW2](docs/hw/hw2.pdf) ||
 || 3 || 03/04/2020 || 10/04/2020 || [HW3]() ||
 || 4 || 06/04/2020 || 17/04/2020 || [HW4]() ||
 || 5 || 10/04/2020 || 17/04/2020 || [HW5]() ||
