@@ -67,7 +67,7 @@ inference)
     - The $p$-value
     - Maximum statistic, sum of statistics and the Higher Criticism
 
-* FamilyWise Error Rate control: Bonferroni
+* [FamilyWise Error Rate control: Bonferroni](docs/slides/5_fwer.pdf) [[R](docs/code/5_fwer.R)]
     - Error rates
     - Bonferroni inequality
     - Holm procedure
@@ -96,7 +96,7 @@ inference)
 ||  || ||  ||  || ||
 || 1 || 27/03/2020 || 06/04/2020 || [HW1](docs/hw/hw1.pdf) ||
 || 2 || 30/03/2020 || 10/04/2020 || [HW2](docs/hw/hw2.pdf) ||
-|| 3 || 03/04/2020 || 10/04/2020 || [HW3]() ||
+|| 3 || 03/04/2020 || 10/04/2020 || [HW3](docs/hw/hw3.pdf) ||
 || 4 || 06/04/2020 || 17/04/2020 || [HW4]() ||
 || 5 || 10/04/2020 || 17/04/2020 || [HW5]() ||
 
