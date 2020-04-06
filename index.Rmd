@@ -14,7 +14,7 @@ The main goal of this course is to expose students to modern ideas in statistica
 
 ## Last announcements
 
-* Per formare i gruppi per gli Homework, si prega di compilare il seguente [FORM](https://docs.google.com/forms/d/e/1FAIpQLSftmyHrsyr9fkBnWjg2L-QFodD2X5BZL1qyOFYeUD3ZDv727Q/viewform?usp=sf_link) 
+* No news
 
 ## Calendar
 
@@ -67,12 +67,12 @@ inference)
     - The $p$-value
     - Maximum statistic, sum of statistics and the Higher Criticism
 
-* [FamilyWise Error Rate control: Bonferroni](docs/slides/5_fwer.pdf) [[R](docs/code/5_fwer.R)]
+* [FamilyWise Error Rate control](docs/slides/5_fwer.pdf) [[R](docs/code/5_fwer.R)]
     - Error rates
     - Bonferroni inequality
     - Holm procedure
 
-* False Discovery Rate control: Benjamini-Hochberg
+* [False Discovery Rate control](docs/slides/6_fdr.pdf)
     - Benjamini-Hochberg procedure 
     - Benjamini-Yekutieli procedure
     - False coverage control
@@ -97,7 +97,7 @@ inference)
 || 1 || 27/03/2020 || 06/04/2020 || [HW1](docs/hw/hw1.pdf) ||
 || 2 || 30/03/2020 || 10/04/2020 || [HW2](docs/hw/hw2.pdf) ||
 || 3 || 03/04/2020 || 10/04/2020 || [HW3](docs/hw/hw3.pdf) ||
-|| 4 || 06/04/2020 || 17/04/2020 || [HW4]() ||
+|| 4 || 07/04/2020 || 17/04/2020 || [HW4]() ||
 || 5 || 10/04/2020 || 17/04/2020 || [HW5]() ||
 
 The rules are the following:
@@ -114,7 +114,9 @@ The rules are the following:
 
 * All students must follow a code of conduct, which covers issues such as plagiarism, falsification, unauthorized assistance, cheating, and other grievous acts of academic dishonesty
 
+* Name your files HM[N]_[GroupName] where [N] is the homework number and [GroupName] is your group name
 
+* [List of groups](docs/hw/groups.pdf)
 
 ## Exam
 
@@ -131,8 +133,7 @@ For the homeworks:
   * There will be 5 homeworks; the lowest score will be dropped in the final grade
   
   * Each homework has a deadline: solutions should be submitted via e-mail (late submissions will *not* be accepted)
-
- <!-- For attending students, the oral examination may be replaced by a written examination (only for the first two exam sessions). -->
+  
 
 Exam schedule:
 
