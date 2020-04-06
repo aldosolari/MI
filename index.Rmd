@@ -29,9 +29,9 @@ The main goal of this course is to expose students to modern ideas in statistica
 ||  || ||  ||  || ||
 || 5 || 6/4/2020 || U7-17 || 13:30-16:30 (3h) || FDR control: Benjamini-Hochberg ||
 || 6 || 7/4/2020 || U7-17 || 9:30-11:30 (2h) ||  Uniform Bounds for the FDP  ||
-|| 7 || 10/4/2020 || U7-17 || 11:30-16:30 (3h) || High-Dimensional Inference  ||
+|| 7 || 17/4/2020 || U7-17 || 13:30-15:30 (3h) || High-Dimensional Inference  ||
 ||  || ||  ||  || ||
-|| 8 || 17/4/2020 || U7-17 || 13:30-15:30 (2h) || Modern Methods for Variable Selection ||
+|| 8 || 20/4/2020 || U7-17 || 13:30-15:30 (2h) || Modern Methods for Variable Selection ||
 
 All of the course material is on the 
 [github repo](https://github.com/aldosolari/MI)
@@ -96,9 +96,9 @@ inference)
 ||  || ||  ||  || ||
 || 1 || 27/03/2020 || 06/04/2020 || [HW1](docs/hw/hw1.pdf) ||
 || 2 || 30/03/2020 || 10/04/2020 || [HW2](docs/hw/hw2.pdf) ||
-|| 3 || 03/04/2020 || 10/04/2020 || [HW3](docs/hw/hw3.pdf) ||
-|| 4 || 07/04/2020 || 17/04/2020 || [HW4]() ||
-|| 5 || 10/04/2020 || 17/04/2020 || [HW5]() ||
+|| 3 || 03/04/2020 || 14/04/2020 || [HW3](docs/hw/hw3.pdf) ||
+|| 4 || 07/04/2020 || 21/04/2020 || [HW4]() ||
+|| 5 || 17/04/2020 || 21/04/2020 || [HW5]() ||
 
 The rules are the following:
 
