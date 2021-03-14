@@ -8,163 +8,71 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-The main goal of this course is to expose students to modern ideas in statistical inference, ranging from classical multiple testing to post-selection inference and variable selection procedures for high-dimensional data. 
+Corso di Laurea Magistrale in Scienze Statistiche ed Economiche, Università degli Studi di Milano-Bicocca, A.A. 2020/21.
+
+
+## Calendario delle lezioni e materiale didattico
+
+* L01 (Giovedì 18 Marzo 10:30-13:30) 3h
+   * 
+
+* L02 (Lunedì 22 Marzo 12:30-15:30) 3h
+   * 
+
+* L03 (Martedì 23 Marzo 9:30-11:30) 2h
+   * 
+   
+* L04 (Giovedì 25 Marzo 10:30-13:30) 3h
+   * 
+   
+* L05 (Lunedì 29 Marzo 12:30-15:30) 3h
+   * 
+
+* L06 (Martedì 30 Marzo 9:30-11:30) 2h 
+   * 
+   
+* L07 (Giovedì 8 Aprile 10:30-13:30) 3h 
+   * 
+   
+* L08 (Lunedì 12 Aprile 12:30-14:30) 3h 
+   * 
 
 
 
-## Last announcements
-
-* No news
-
-## Calendar
-
-|| N || Date || Room || Hours || Topic || 
-|-|-|-|-|-|-|-|-|-|-|-|
-||  || ||  ||  || ||
-|| 1 || 27/3/2020 || U7-17 || 13:30-16:30 (3h) || The Crisis of Modern Science  ||
-||  || ||  ||  || ||
-|| 2 || 30/3/2020 || U7-17 || 13:30-16:30 (3h) || High-Dimensional Statistics ||
-|| 3 || 31/3/2020 || U7-17 || 9:30-11:30 (2h) || Global Null Testing ||
-|| 4 || 3/4/2020 || U7-17 || 11:30-16:30 (3h) || FWER control: Bonferroni ||
-||  || ||  ||  || ||
-|| 5 || 6/4/2020 || U7-17 || 13:30-16:30 (3h) || FDR control: Benjamini-Hochberg ||
-|| 6 || 9/4/2020 || U7-17 || 9:30-11:30 (2h) ||  Uniform Bounds for the FDP  ||
-|| 7 || 17/4/2020 || U7-17 || 13:30-15:30 (3h) || High-Dimensional Inference  ||
-||  || ||  ||  || ||
-|| 8 || 20/4/2020 || U7-17 || 13:30-15:30 (2h) || Modern Methods for Variable Selection ||
-
-All of the course material is on the 
-[github repo](https://github.com/aldosolari/MI)
+Se non specificato, la lezione è sincrona. 
 
 
-## Program and resources
-
-* [Course overview](docs/slides/0_intro.pdf)
-
-* [The Crisis of Modern Science](docs/slides/1_crisis.pdf) [[R](docs/code/1_crisis.R)]
-    - Scientific studies
-    - The likelihood of false discoveries
-    - The likelihood of replicating discoveries
-
-* [The Law of Selection](docs/slides/2_lawsel.pdf)  [[R](docs/code/2_lawsel.R)]
-    - The Baltimore stockbroker scam (survivorship bias)
-    - Democrats vs. Republicans: which is better for the U.S.
-Economy? (p-hacking)
-    - A quiet scandal in the statistical community (post-selection
-inference)
-    - Eat Pizza and avoid Prostate Cancer
-    - AIDSVAX vaccine study (unplanned subgroup analysis)
-    - The dead salmon study (large-scale testing)
-    
-* [High-Dimensional Statistics](docs/slides/3_hds.pdf)
-    - Classical versus high-dimensional theory
-    - Linear discriminant analysis in high dimensions
-    - What can help us in high dimensions? Sparsity
-    - High-dimensional regression: the behaviour of the Lasso
-
-* [Global Null Testing](docs/slides/4_glob.pdf)
-    - Hypothesis testing: a stochastic proof by contradiction
-    - The $p$-value
-    - Maximum statistic, sum of statistics and the Higher Criticism
-
-* [FamilyWise Error Rate control](docs/slides/5_fwer.pdf) [[R](docs/code/5_fwer.R)]
-    - Error rates
-    - Bonferroni inequality
-    - Holm procedure
-
-* [False Discovery Rate control](docs/slides/6_fdr.pdf)
-    - Benjamini-Hochberg procedure 
-    - Benjamini-Yekutieli procedure
-    - False coverage control
-    
-* [Uniform Bounds for the False Discovery Proportion](docs/slides/7_posthoc.pdf)
-    - Post-hoc inference
-<!-- - Closed testing with Simes local tests -->
-
-* High-Dimensional Inference
-    - Sample-splitting
-
-* Modern Methods for Variable Selection
-    - Stability Selection
-    - The Knockoff Filter
 
 
-## Homeworks
 
-|| N || Date || Deadline || Text ||
+## Esame
+  
+L’esame è composto da due parti:
+
+1. Prova scritta (50%).
+
+2. Analisi dei dati (50%).
+  
+Il voto finale è dato dalla media dei voti delle parti 1. e 2. Lo studente (oppure il docente) può richiedere la prova orale.
+
+
+
+### Analisi dei dati
+
+
+### Prova scritta
+
+
+
+### Calendario degli esami
+
+|| Sessione || Data || Luogo  || Orario ||
 |-|-|-|-|-|-|-|-|-|-|
 ||  || ||  ||  || ||
-|| 1 || 27/03/2020 || 06/04/2020 || [HW1](docs/hw/hw1.pdf) ||
-|| 2 || 30/03/2020 || 10/04/2020 || [HW2](docs/hw/hw2.pdf) ||
-|| 3 || 03/04/2020 || 14/04/2020 || [HW3](docs/hw/hw3.pdf) ||
-|| 4 || 09/04/2020 || 21/04/2020 || [HW4](docs/hw/hw4.pdf) ||
-|| 5 || 17/04/2020 || 24/04/2020 || [HW5](docs/hw/hw5.pdf) ||
-
-The rules are the following:
-
-* You will have to submit your solution by the deadline. Feel free to choose the format for your solution (.txt, .tex, .pdf etc.), the nicer the better, and the number of files in attachment (one or more, but not too many)
-
-* Answer with clarity and precision. All R code must be reproducible
-
-* For theoretical questions, try to provide a well-reasoned mathematical argument. Simulations can help form your intuition; but a purely empirical answer will only receive partial points
-
-* It is encouraged to discuss the problem sets with others, but every group needs to turn in a unique write-up. Use of sources (people, books, internet and so on) without citing them in homework sets results in failing grade
-
-* At the end of the homeworks, each member must fill a peer rating form of team members. The individual score will be the team score adjusted based on peer ratings
-
-* All students must follow a code of conduct, which covers issues such as plagiarism, falsification, unauthorized assistance, cheating, and other grievous acts of academic dishonesty
-
-* Name your files HM[N]_[GroupName] where [N] is the homework number and [GroupName] is your group name
-
-* [List of groups](docs/hw/groups.pdf)
-
-## Exam
-
-Two options: 
-
-1. Oral examination 
-
-2. Homeworks and (shorter) oral examination.  
-
-For the homeworks:
-
-  * Students can partecipate in groups (max. 3 persons)  
-  
-  * There will be 5 homeworks; the lowest score will be dropped in the final grade
-  
-  * Each homework has a deadline: solutions should be submitted via e-mail (late submissions will *not* be accepted)
-  
-
-Exam schedule:
-
-|| N || Date || Room || Hour ||
-|-|-|-|-|-|-|-|-|-|-|
-||  || ||  ||  || ||
-|| 1 || 28/04/2020 || TBD || TBD ||
-|| 2 || 25/06/2020 || TBD || TBD ||
-|| 3 || 09/07/2020 || TBD || TBD ||
-|| 4 || 22/09/2020 || TBD || TBD ||
-
-## Textbooks
-
-* Efron, Hastie (2016) Computer-Age Statistical Inference: Algorithms, Evidence, and Data Science. Cambridge University Press. Chapters 15, 20 
-* Wainwright (2019) High-Dimensional Statistics: A Non-Asymptotic Viewpoint. Cambridge University Press. Chapter 1
-
-## Acknowledgements 
-
-Much of the course content was inspired by the following courses:
-
-* [Theory of Statistics](https://statweb.stanford.edu/~candes/teaching/stats300c/) by Prof. Emmanuel Candès
-
-* [Statistical methods for reproducibility](https://www.stat.cmu.edu/~aramdas/reproducibility19/r19.html) by Prof. Aaditya Ramdas
-
-and on a number of other sources.
+|| Primaverile || 27 Aprile 2021 || Telematica || 14:30 ||
+|| Estiva || 22 Giugno 2021 || TBD || TBD ||
+|| Estiva || 7 Luglio 2020 || TBD || TBD ||
+|| Estiva || Settembre || TBD || TBD ||
 
 
-## Disclaimer
 
-The course material contains images obtained by routine Google Images searches. Some of these images may perhaps be copyright. They are included here for
-educational noncommercial purposes and are considered to be covered by the doctrine
-of Fair Use. In any event they are easily available from Google Images. It's not
-feasible to give full scholarly credit to the creators of these images. We hope they can
-be satisfied with the positive role they are playing in the educational process.
