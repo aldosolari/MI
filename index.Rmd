@@ -37,12 +37,7 @@ Corso di Laurea Magistrale in Scienze Statistiche ed Economiche, Università deg
 * L08 (Lunedì 12 Aprile 12:30-14:30) 3h 
    * 
 
-
-
 Se non specificato, la lezione è sincrona. 
-
-
-
 
 
 ## Esame
@@ -55,14 +50,37 @@ L’esame è composto da due parti:
   
 Il voto finale è dato dalla media dei voti delle parti 1. e 2. Lo studente (oppure il docente) può richiedere la prova orale.
 
-
-
 ### Analisi dei dati
 
+L'analisi dai dati prevede la consegna sulla pagina MOODLE di un file TXT per ciascuno dei seguenti 4 data set. 
+
+* Intervalli di previsione: l'obiettivo è costruire intervalli di previsione per il test set di ciascun data set. Gli intervalli verranno valutati in termini di copertura e lunghezza complessiva.
+
+   * Data set PRED_LOW a bassa dimensionalità
+   * Data set PRED_HIGH ad alta dimensionalità 
+ 
+* Selezione delle variabili: l'obiettivo è selezionare l'insieme di variabili "rilevanti" per ciascun data set. La selezione verrà valutata in termini di True Positive Rate e False Discovery Rate. 
+
+   * Data set VS_LOW a bassa dimensionalità
+   * Data set VS_HIGH ad alta dimensionalità 
+
+Oltre ai file TXT, bisognerà consegnare sulla pagina MOODLE i corrispettivi file PDF contenenti il codice utilizzato (riportare solo il codice strettamente necessario che deve essere riproducibile). 
+
+Agli studenti che si iscrivono al seguente form entro il 18 Marzo 2021 viene data la possibilità di svolgere l'analisi dei dati in gruppi di (al massimo) tre persone (suddivisi casualemente). Gli studenti che partecipano in gruppo dovranno consegnare le analisi entro l'ultima lezione del corso (12 Aprile) e preparare una breve presentazione del loro lavoro.
+
+Il punteggio ottenuto sarà valido fino a fine Febbraio 2022. 
 
 ### Prova scritta
 
+La prova scritta
 
+* si svolgerà in remoto con il sistema di proctoring;
+
+* sarà in modalità "libro aperto", quindi sarà possibile consultare appunti, libri, codice etc. durante la prova;
+
+* riguarda tutti gli argomenti affrontati nel corso e può prevedere l'utilizzo di un computer su cui è installato il software R o RStudio; 
+
+* consiste in domande sia a risposta multipla o aperta sia a risposta singola in forma numerica. 
 
 ### Calendario degli esami
 
