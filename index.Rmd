@@ -23,7 +23,7 @@ CONFORMAL INFERENCE
    * Split conformal prediction
    * Multi split conformal prediction
 
-HIGH DIMENSIONAL STATISTICS AND MULTIPLE TESTING
+SELECTION, HIGH DIMENSIONAL STATISTICS AND MULTIPLE TESTING
 
 * L03 (Martedì 23 Marzo 9:30-11:30) 2h
    * The crisis of modern science
