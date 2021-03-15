@@ -14,28 +14,35 @@ Corso di Laurea Magistrale in Scienze Statistiche ed Economiche, Università deg
 ## Calendario delle lezioni e materiale didattico
 
 * L01 (Giovedì 18 Marzo 10:30-13:30) 3h
-   * 
+   * Prediction intervals in the linear model
+   * Conformal prediction
 
 * L02 (Lunedì 22 Marzo 12:30-15:30) 3h
-   * 
+   * Split conformal prediction
+   * Multi split conformal prediction
 
 * L03 (Martedì 23 Marzo 9:30-11:30) 2h
-   * 
+   * The crisis of modern science
+   * The law of selection
    
 * L04 (Giovedì 25 Marzo 10:30-13:30) 3h
-   * 
+   * What can go wrong in high dimensions?
+   * Global testing in high-dimensions
    
 * L05 (Lunedì 29 Marzo 12:30-15:30) 3h
-   * 
+   * Multiple testing: FWER controlling procedures
+   * Multiple testing: FDR controlling procedures
 
 * L06 (Martedì 30 Marzo 9:30-11:30) 2h 
-   * 
+   * Data-splitting for high-dimensional inference
    
 * L07 (Giovedì 8 Aprile 10:30-13:30) 3h 
-   * 
+   * Stability selection
+   * Complementary Pairs Stability Selection
    
 * L08 (Lunedì 12 Aprile 12:30-14:30) 3h 
-   * 
+   * The knockoff filter: Fixed-X knockoffs
+   * The knockoff filter: Model-X knockoffs
 
 Se non specificato, la lezione è sincrona. 
 
