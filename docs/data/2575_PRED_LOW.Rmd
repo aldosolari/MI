@@ -1,0 +1,27 @@
+---
+title: "2575_PRED_LOW"
+output: pdf_document
+author: Aldo Solari, 2575
+date: 15 Marzo 2021
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Nominare il file con il proprio numero di matricola e il nome del data set, e aggiungere in *author* il proprio nome, cognome e numero di matricola. Se si lavora in gruppo, nominare il file con il nome del gruppo e il nome del data set,e aggiungere in *author* il nome, cognome e matricola di tutti i componenti del gruppo. Specificare in *date* la data della compilazione. 
+
+# Codice riproducibile
+
+Includere solo il codice indispensabile per ottenere la previsione finale, e stampare in output i primi 6 intervalli di previsione.
+
+```{r}
+PATH <- "https://raw.githubusercontent.com/aldosolari/MI/master/docs/data/"
+train = read.table(paste(PATH,"PRED_LOW_train.txt", sep=""), header=T)
+test = read.table(paste(PATH,"PRED_LOW_test.txt", sep=""), header=T)
+model = lm(y~.,train)
+PI = predict(model, newdata = test, interval = "prediction")[,-1]
+head(PI)
+# write.table(file="2575_PRED_LOW.txt", PI, row.names = FALSE, col.names = FALSE)
+```
+
