@@ -1,0 +1,30 @@
+---
+title: "2575_VS_HIGH"
+output: pdf_document
+author: Aldo Solari, 2575
+date: 15 Marzo 2021
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Nominare il file con il proprio numero di matricola e il nome del data set, e aggiungere in *author* il proprio nome, cognome e numero di matricola. Se si lavora in gruppo, nominare il file con il nome del gruppo e il nome del data set,e aggiungere in *author* il nome, cognome e matricola di tutti i componenti del gruppo. Specificare in *date* la data della compilazione. 
+
+# Codice riproducibile
+
+Includere solo il codice indispensabile per ottenere la previsione finale, e stampare in output le prime 6 variabili selezionate (solo se si selezionano almeno 6 variabili).
+
+```{r, warning=FALSE, message=FALSE}
+PATH <- "https://raw.githubusercontent.com/aldosolari/MI/master/docs/data/"
+dat = read.table(paste(PATH,"VS_HIGH.txt", sep=""), header=T)
+library(glmnet)
+y = as.numeric(dat[,1])
+x = as.matrix(dat[,-1])
+l <- cv.glmnet(x=x,y=y)$lambda.1se
+fit <- glmnet(x=x,y=y, lambda=l)
+S = which(coef(fit)!=0)
+head(S)
+#write.table(file="2575_VS_HIGH.txt", S, row.names = FALSE, col.names = FALSE)
+```
+
