@@ -19,17 +19,18 @@ CONFORMAL INFERENCE
    * **Prediction intervals**
    * **Conformal prediction**
    * [Davison A.C. (2003), Statistical Models, Cambridge University Press.  Section 8.3.2]()
-   * [Shafer, G. and Vovk, V. (2008). A tutorial on conformal prediction. Journal of Machine Learning
+   * [Shafer, and Vovk (2008). A tutorial on conformal prediction. Journal of Machine Learning
 Research, 9:371–421.](https://jmlr.org/papers/volume9/shafer08a/shafer08a.pdf)
+   * [Barber, Candes, Ramdas, Tibshirani (2019). The limits of distribution-free conditional predictive inference.](https://arxiv.org/pdf/1903.04684.pdf)
 
 * L02 (Lunedì 22 Marzo 12:30-15:30) 3h
    * **Split conformal prediction**
    * **Multi split conformal prediction**
-   * [Lei, J., G'Sell, M., Rinaldo, A., Tibshirani, R. J., and Wasserman, L. (2018). Distribution-free
-predictive inference for regression. Journal of the American Statistical Association, 113:1094-1111.](https://arxiv.org/pdf/1604.04173.pdf)
-   * [Romano, Y., Patterson, E., and Candes, E. J. (2019). Conformalized quantile regression. 33rd Conference on Neural Information Processing Systems](https://arxiv.org/pdf/1905.03222.pdf)
-   * [Barber, R. F., Candes, E. J., Ramdas, A., and Tibshirani, R. J. (2021). Predictive inference with
-the jackknife+. Annals of Statistics, 49:486–507.](https://arxiv.org/pdf/1905.02928.pdf)
+   * [Lei, G'Sell, Rinaldo, Tibshirani, Wasserman (2018). Distribution-free
+predictive inference for regression. JASA, 113:1094-1111.](https://arxiv.org/pdf/1604.04173.pdf)
+   * [Romano, Patterson, Candes (2019). Conformalized quantile regression. 33rd Conference on Neural Information Processing Systems](https://arxiv.org/pdf/1905.03222.pdf)
+   * [Barber, Candes, Ramdas, Tibshirani (2021). Predictive inference with
+the jackknife+. The Annals of Statistics, 49:486–507.](https://arxiv.org/pdf/1905.02928.pdf)
 
 SELECTION, HIGH DIMENSIONAL STATISTICS AND MULTIPLE TESTING
 
@@ -39,41 +40,41 @@ SELECTION, HIGH DIMENSIONAL STATISTICS AND MULTIPLE TESTING
    * [Ioannidis (2005) Why most published research findings are false
 PLoS medicine]()
    * [Goeman (2016) Randomness and the Games of Science. The Challenge of Chance, pp. 91–109, Springer]()
-   * [Hung and Fithian (2020) Statistical methods for replicability assessment. The Annals of Applied Statistics. 14: 1063-1087](https://arxiv.org/pdf/1903.08747.pdf)
+   * [Hung, Fithian (2020) Statistical methods for replicability assessment. The Annals of Applied Statistics. 14: 1063-1087](https://arxiv.org/pdf/1903.08747.pdf)
    
 * L04 (Giovedì 25 Marzo 10:30-13:30) 3h
    * **What can go wrong in high dimensions?**
    * **Global tests in high dimensions**
    * [Wainwright (2019) High-Dimensional Statistics: A Non-Asymptotic Viewpoint
 Cambridge University Press. Sections 1.1.1, 1.2.1, 1.3.1]()
-   * [Donoho D. and Jin J. (2015) Higher Criticism for Large-Scale Inference, Especially for Rare and Weak Effects, Statistical Science, 30:1–25](http://www.stat.cmu.edu/~jiashun/Research/Selected/HC-Review.pdf)
+   * [Donoho, Jin (2015) Higher Criticism for Large-Scale Inference, Especially for Rare and Weak Effects, Statistical Science, 30:1–25](http://www.stat.cmu.edu/~jiashun/Research/Selected/HC-Review.pdf)
    
 * L05 (Lunedì 29 Marzo 12:30-15:30) 3h
    * **Multiple testing: FWER controlling procedures**
    * **Multiple testing: FDR controlling procedures**
-   * [Goeman, J.J. and Solari, A. (2014) Multiple Hypothesis Testing in Genomics. Statistics in Medicine, 33, 1946--78]()
+   * [Goeman, Solari (2014) Multiple Hypothesis Testing in Genomics. Statistics in Medicine, 33, 1946--78]()
 
 VARIABLE SELECTION
 
 * L06 (Martedì 30 Marzo 9:30-11:30) 2h 
    * **Data splitting for high dimensional variable selection**
-   * [Dezeure, R., Buhlmann, P., Meier, L., & Meinshausen, N. (2015). High dimensional
+   * [Dezeure, Buhlmann, Meier,  Meinshausen (2015). High dimensional
 inference: Confidence intervals, p-values and r-software
 hdi. Statistical Science, 533–558](https://arxiv.org/pdf/1408.4026.pdf)
    
 * L07 (Giovedì 8 Aprile 10:30-13:30) 3h 
    * **Stability selection**
    * **Complementary Pairs Stability Selection**
-   * [Meinshausen, N. and Buhlmann, P. (2010). Stability selection. JRSS-B, 72:417-473.](https://arxiv.org/pdf/0809.2932.pdf)
-   * [Shah, R. D. and Samworth, R. J. (2013). Variable selection with error control: another look at
+   * [Meinshausen, Buhlmann (2010). Stability selection. JRSS-B, 72:417-473.](https://arxiv.org/pdf/0809.2932.pdf)
+   * [Shah,  Samworth. (2013). Variable selection with error control: another look at
 stability selection. JRSS-B,
 75:55-80](http://www.statslab.cam.ac.uk/~rjs57/rssb_1034.pdf)
    
 * L08 (Lunedì 12 Aprile 12:30-14:30) 3h 
    * **The knockoff filter: Fixed-X knockoffs**
    * **The knockoff filter: Model-X knockoffs**
-   * [Barber, R. F., Candès, E. J., et al. (2015). Controlling the false discovery rate via knockoffs. The Annals of Statistics, 43, 2055–2085](https://arxiv.org/pdf/1404.5609.pdf).
-   * [Barber, R. F., Candès, E. J., et al. (2019). A knockoff filter for highdimensional
+   * [Barber,  Candès et al. (2015). Controlling the false discovery rate via knockoffs. The Annals of Statistics, 43, 2055–2085](https://arxiv.org/pdf/1404.5609.pdf).
+   * [Barber, Candès et al. (2019). A knockoff filter for highdimensional
 selective inference. The Annals of Statistics, 47, 2504–
 2537](https://arxiv.org/pdf/1602.03574.pdf)
 
