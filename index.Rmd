@@ -27,6 +27,7 @@ Research, 9:371–421.](https://jmlr.org/papers/volume9/shafer08a/shafer08a.pdf)
    * **Multi split conformal prediction**
    * [Lei, J., G'Sell, M., Rinaldo, A., Tibshirani, R. J., and Wasserman, L. (2018). Distribution-free
 predictive inference for regression. Journal of the American Statistical Association, 113:1094-1111.](https://arxiv.org/pdf/1604.04173.pdf)
+   * [Romano, Y., Patterson, E., and Candes, E. J. (2019). Conformalized quantile regression. 33rd Conference on Neural Information Processing Systems](https://arxiv.org/pdf/1905.03222.pdf)
    * [Barber, R. F., Candes, E. J., Ramdas, A., and Tibshirani, R. J. (2021). Predictive inference with
 the jackknife+. Annals of Statistics, 49:486–507.](https://arxiv.org/pdf/1905.02928.pdf)
 
@@ -42,7 +43,7 @@ PLoS medicine]()
    
 * L04 (Giovedì 25 Marzo 10:30-13:30) 3h
    * **What can go wrong in high dimensions?**
-   * **Global testing in high dimensions**
+   * **Global tests in high dimensions**
    * [Wainwright (2019) High-Dimensional Statistics: A Non-Asymptotic Viewpoint
 Cambridge University Press. Sections 1.1.1, 1.2.1, 1.3.1]()
    * [Donoho D. and Jin J. (2015) Higher Criticism for Large-Scale Inference, Especially for Rare and Weak Effects, Statistical Science, 30:1–25](http://www.stat.cmu.edu/~jiashun/Research/Selected/HC-Review.pdf)
@@ -58,7 +59,7 @@ VARIABLE SELECTION
    * **Data splitting for high dimensional variable selection**
    * [Dezeure, R., Buhlmann, P., Meier, L., & Meinshausen, N. (2015). High dimensional
 inference: Confidence intervals, p-values and r-software
-hdi. Statistical science, 533–558](https://arxiv.org/pdf/1408.4026.pdf)
+hdi. Statistical Science, 533–558](https://arxiv.org/pdf/1408.4026.pdf)
    
 * L07 (Giovedì 8 Aprile 10:30-13:30) 3h 
    * **Stability selection**
@@ -83,11 +84,11 @@ Se non specificato, la lezione è sincrona.
   
 L’esame è composto da due parti:
 
-1. Prova scritta (50%) che si svolgerà in corrispondenza degli appelli d'esame;
+1. Prova scritta (peso 1/3) che si svolgerà in corrispondenza degli appelli d'esame;
 
-2. Analisi dei dati (50%) da consegnare almeno una settimana prima della prova scritta. 
+2. Analisi dei dati (peso 2/3) da consegnare almeno una settimana prima della prova scritta. 
   
-Il voto finale è dato dalla media dei voti delle parti 1. e 2. Lo studente (oppure il docente) può richiedere la prova orale.
+Il voto finale è dato dalla media pesata dei voti delle parti 1. e 2. Lo studente (oppure il docente) può richiedere la prova orale.
 
 ### Analisi dei dati
 
