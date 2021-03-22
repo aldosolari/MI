@@ -95,13 +95,16 @@ L'analisi dai dati prevede la consegna sulla pagina MOODLE (almeno tre giorni pr
 
    * Data set [PRED_LOW_train](docs/data/PRED_LOW_train.txt) e [PRED_LOW_test](docs/data/PRED_LOW_test.txt) a bassa dimensionalità
    * Data set [PRED_HIGH_train]() e [PRED_HIGH_test]() ad elevata dimensionalità 
+   * [Criteri di valutazione](docs/data/MI_dataanalysis.pdf)
    * Esempio di consegna: [TXT](docs/data/2575_PRED_LOW.txt), [RMD](docs/data/2575_PRED_LOW.Rmd) e [PDF](docs/data/2575_PRED_LOW.pdf). E' obbligatorio rispettare il formato richiesto. 
- 
+
 * Selezione delle variabili: l'obiettivo è selezionare l'insieme di variabili "rilevanti" per ciascun data set. La selezione verrà valutata in termini di True Positive Rate e False Discovery Rate. 
 
    * Data set [VS_LOW](docs/data/VS_LOW.txt) a bassa dimensionalità
    * Data set [VS_HIGH](docs/data/VS_HIGH.txt) ad elevata dimensionalità 
+   * [Criteri di valutazione](docs/data/MI_dataanalysis.pdf)
    * Esempio di consegna: [TXT](docs/data/2575_VS_HIGH.txt), [RMD](docs/data/2575_VS_HIGH.Rmd) e [PDF](docs/data/2575_VS_HIGH.pdf). E' obbligatorio rispettare il formato richiesto. 
+   
    
 Oltre ai file TXT, bisogna consegnare sulla pagina MOODLE i corrispettivi file PDF contenenti il codice utilizzato (riportare solo il codice strettamente necessario che deve essere riproducibile). 
 
