@@ -9,11 +9,11 @@ date: 15 Marzo 2021
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Nominare il file con il proprio numero di matricola e il nome del data set, e aggiungere in *author* il proprio nome, cognome e numero di matricola. Se si lavora in gruppo, nominare il file con il nome del gruppo e il nome del data set,e aggiungere in *author* il nome, cognome e matricola di tutti i componenti del gruppo. Specificare in *date* la data della compilazione. 
+Nominare il file con il proprio numero di matricola e il nome del dataset (e.g. 2575_VS_HIGH). Riportare in *title* il nome del data set, e aggiungere in *author* il proprio nome, cognome e numero di matricola. Specificare in *date* la data della compilazione.  
 
 # Codice riproducibile
 
-Includere solo il codice indispensabile per ottenere la previsione finale, e stampare in output le prime 6 variabili selezionate (solo se si selezionano almeno 6 variabili).
+Includere solo il codice indispensabile per ottenere la previsione finale, e stampare in output solo le prime 6 variabili selezionate (solo se si selezionano almeno 6 variabili).
 
 ```{r, warning=FALSE, message=FALSE}
 PATH <- "https://raw.githubusercontent.com/aldosolari/MI/master/docs/data/"
