@@ -93,14 +93,14 @@ L'analisi dai dati prevede la consegna sulla pagina MOODLE (almeno tre giorni pr
 
 * Intervalli di previsione: l'obiettivo è costruire intervalli di previsione per il test set di ciascun data set. Gli intervalli verranno valutati in termini di copertura (target: 90\%) e lunghezza complessiva.
 
-   * Data set [PRED_LOW_train](docs/data/PRED_LOW_train.txt) e [PRED_LOW_test](docs/data/PRED_LOW_test.txt) a bassa dimensionalità
-   * Data set [PRED_HIGH_train](docs/data/PRED_HIGH_train.txt) e [PRED_HIGH_test](docs/data/PRED_HIGH_test.txt) ad elevata dimensionalità 
+   * Data set [PRED_LOW_train](docs/data/PRED_LOW_train.txt) e [PRED_LOW_test](docs/data/PRED_LOW_test.txt) a bassa dimensionalità (train $n=752$, test $n=751$ e dimensionalità $d=5$)
+   * Data set [PRED_HIGH_train](docs/data/PRED_HIGH_train.txt) e [PRED_HIGH_test](docs/data/PRED_HIGH_test.txt) ad elevata dimensionalità (train $n=100$, test $n=10000$ e dimensionalità $d=100$)
    * Esempio di consegna: [TXT](docs/data/2575_PRED_LOW.txt), [RMD](docs/data/2575_PRED_LOW.Rmd) e [PDF](docs/data/2575_PRED_LOW.pdf). E' obbligatorio rispettare il formato richiesto. 
 
 * Selezione delle variabili: l'obiettivo è selezionare l'insieme di variabili "rilevanti" per ciascun data set. La selezione verrà valutata in termini di True Positive Rate e False Discovery Rate. 
 
-   * Data set [VS_LOW](docs/data/VS_LOW.txt) a bassa dimensionalità
-   * Data set [VS_HIGH](docs/data/VS_HIGH.txt) ad elevata dimensionalità 
+   * Data set [VS_LOW](docs/data/VS_LOW.txt) a bassa dimensionalità ($n=40$ e $d= 19$)
+   * Data set [VS_HIGH](docs/data/VS_HIGH.txt) ad elevata dimensionalità ($n=1000$ e $d= 1000$)
    * Esempio di consegna: [TXT](docs/data/2575_VS_HIGH.txt), [RMD](docs/data/2575_VS_HIGH.Rmd) e [PDF](docs/data/2575_VS_HIGH.pdf). E' obbligatorio rispettare il formato richiesto. 
    
    
