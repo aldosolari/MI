@@ -119,7 +119,7 @@ Oltre ai file TXT, bisogna consegnare sulla pagina MOODLE i corrispettivi file P
 |-|-|-|-|-|-|-|-|-|-|
 ||  || ||  ||  || ||
 || Primaverile || 27 Aprile 2021 || Telematica || 14:30 ||
-|| Estiva || 22 Giugno 2021 || TBD || TBD ||
+|| Estiva || 23 Giugno 2021 || TBD || TBD ||
 || Estiva || 7 Luglio 2020 || TBD || TBD ||
 || Estiva || Settembre || TBD || TBD ||
 
